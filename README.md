@@ -1,4 +1,9 @@
 # 연습 중
+## 페이지 설명
++ fbase.js - 파이어베이스 연결
++ DateSelection.js - 캘린더 기능
++ Birthday.js - 생년월일 선택창 
+
 
 ## 구글 로그인
 + 파이어 베이스 연결 
