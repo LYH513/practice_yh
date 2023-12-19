@@ -31,7 +31,7 @@ function App() {
       {userData ? userData.email : null}
       
 
-      <div style={{ margin: '20px' }}>
+      <div>
         <DateSelection />
       </div>
       <div>
