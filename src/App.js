@@ -1,10 +1,11 @@
 import { auth } from './fbase';
 import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Test from './Test';
 
 import DateSelection from './DateSelection';
 import Birthday from './Birthday';
+import Progressbar from './Progressbar';
 
 
 function App() {
@@ -36,6 +37,9 @@ function App() {
       </div>
       <div>
         <Birthday/>
+      </div>
+      <div>
+        <Progressbar/>
       </div>
     </div>
   );

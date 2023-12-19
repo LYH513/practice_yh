@@ -14,3 +14,7 @@
 + npm install react-icons 
 + npm install --save react-datetime
 + import 'moment/locale/ko'; // 한국어 로케일 추가-캘린더 한국어 뜨도록 
+
+## 프로그레스바
++ npm install @tomickigrzegorz/react-circular-progress-bar
++ 참고링크: https://github.com/tomickigrzegorz/react-circular-progress-bar/tree/main
