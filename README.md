@@ -3,6 +3,7 @@
 + fbase.js - 파이어베이스 연결
 + DateSelection.js - 캘린더 기능
 + Birthday.js - 생년월일 선택창 
++ Progressbar.js - 원형 프로그레스바 기능
 
 ## 구글 로그인
 + 파이어 베이스 연결 
