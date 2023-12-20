@@ -6,7 +6,7 @@ import React from 'react';
 
 function DeepLink() {
     const gotoApp = () => {
-      
+
       const url = 'supertoss://';
       
       if (window.confirm('토스로 이동할까요?')) {
