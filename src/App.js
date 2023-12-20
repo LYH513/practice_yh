@@ -47,9 +47,9 @@ function App() {
       </div>
       <div>
         <p>Count: {countValue}</p>
-        <p>Count: {CountUp(1200, 0, 1000)}</p>
-        <p>Count: {CountUp(30, 0, 1000)}</p>
-        <p>Count: {CountUp(10000, 0, 1000)}</p>
+        <p>Count: {CountUp(120034, 0, 1000)}</p>
+        <p>Count: {CountUp(3000, 0, 1000)}</p>
+        <p>Count: {CountUp(305000, 0, 1000)}</p>
       </div>
     </div>
   );
