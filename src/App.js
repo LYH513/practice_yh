@@ -18,7 +18,7 @@ function App() {
   const countValue = CountUp(100, 0, 2000);
 
   //클립보드 
-  const account = 'NH농협 : 3021183481511'
+  const account = process.env.REACT_APP_ACCOUNT;
 
   function handleGoogleLogin() {
     const provider = new GoogleAuthProvider(); // provider를 구글로 설정
