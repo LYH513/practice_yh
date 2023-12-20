@@ -9,13 +9,16 @@ import Progressbar from './Progressbar';
 import CountUp from './CountUp';
 
 import DeepLink from './DeepLink';
-
+import {CopyToClipboard} from "react-copy-to-clipboard/src";
 
 function App() {
   //구글 로그인관련 변수
   const [userData, setUserData] = useState(null);
   //숫자 증가 애니메이션 변수(end, start, duration)
   const countValue = CountUp(100, 0, 2000);
+
+  //클립보드 
+  const account = 'NH농협 : 3021183481511'
 
   function handleGoogleLogin() {
     const provider = new GoogleAuthProvider(); // provider를 구글로 설정
@@ -52,6 +55,13 @@ function App() {
         <p>Count: {CountUp(120034, 0, 1000)}</p>
         <p>Count: {CountUp(3000, 0, 1000)}</p>
         <p>Count: {CountUp(305000, 0, 1000)}</p>
+      </div>
+      <div>
+        <CopyToClipboard
+          text={account}
+          onCopy={() => alert("클립보드에 복사되었습니다.")}>
+            <text>{account}</text>
+        </CopyToClipboard>
       </div>
       <div>
         <DeepLink/>

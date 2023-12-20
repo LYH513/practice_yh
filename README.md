@@ -30,3 +30,7 @@
 + 딥링크 모바일에서 확인하는 방법
 + + 노트북&휴대폰 와이파이 동일한 상황에서 윈도우 powershell 열고 > ipconfig 라고 치면 ipV4 주소가 뜸. 그거 복사
 + + https://ipV4 주소:3000
+
+## 계좌 복붙
++ 참고링크: https://toramko.tistory.com/entry/react-%EB%A6%AC%EC%95%A1%ED%8A%B8-%ED%85%8D%EC%8A%A4%ED%8A%B8-%ED%81%B4%EB%A6%BD%EB%B3%B4%EB%93%9C%EC%97%90-%EB%B3%B5%EC%82%AC%ED%95%98%EA%B8%B0react-copy-to-clipboard
++ npm install --save react-copy-to-clipboard
