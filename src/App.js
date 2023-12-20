@@ -8,6 +8,8 @@ import Birthday from './Birthday';
 import Progressbar from './Progressbar';
 import CountUp from './CountUp';
 
+import DeepLink from './DeepLink';
+
 
 function App() {
   //구글 로그인관련 변수
@@ -50,6 +52,9 @@ function App() {
         <p>Count: {CountUp(120034, 0, 1000)}</p>
         <p>Count: {CountUp(3000, 0, 1000)}</p>
         <p>Count: {CountUp(305000, 0, 1000)}</p>
+      </div>
+      <div>
+        <DeepLink/>
       </div>
     </div>
   );

@@ -5,6 +5,7 @@
 + Birthday.js - 생년월일 선택창 
 + Progressbar.js - 원형 프로그레스바 기능
 + CountUp.js - 숫자 증가 애니메이션 
++ DeepLink.js - 모바일에서 토스로 이동가능하도록 하는 기능
 
 ## 구글 로그인
 + 파이어 베이스 연결 
@@ -23,3 +24,9 @@
 
 ## 숫자 증가 애니메이션
 + 참고링크: https://velog.io/@leejuhwan/ReactTSuseCountUp
+
+## 토스 딥링크
++ 참고링크: https://story.pxd.co.kr/1683
++ 딥링크 모바일에서 확인하는 방법
++ + 노트북&휴대폰 와이파이 동일한 상황에서 윈도우 powershell 열고 > ipconfig 라고 치면 ipV4 주소가 뜸. 그거 복사
++ + https://ipV4 주소:3000
