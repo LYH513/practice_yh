@@ -4,6 +4,7 @@
 + DateSelection.js - 캘린더 기능
 + Birthday.js - 생년월일 선택창 
 + Progressbar.js - 원형 프로그레스바 기능
++ CountUp.js - 숫자 증가 애니메이션 
 
 ## 구글 로그인
 + 파이어 베이스 연결 
@@ -19,3 +20,6 @@
 ## 프로그레스바
 + npm install @tomickigrzegorz/react-circular-progress-bar
 + 참고링크: https://github.com/tomickigrzegorz/react-circular-progress-bar/tree/main
+
+## 숫자 증가 애니메이션
++ https://velog.io/@leejuhwan/ReactTSuseCountUp

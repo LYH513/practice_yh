@@ -6,10 +6,14 @@ import Test from './Test';
 import DateSelection from './DateSelection';
 import Birthday from './Birthday';
 import Progressbar from './Progressbar';
+import CountUp from './CountUp';
 
 
 function App() {
+  //구글 로그인관련 변수
   const [userData, setUserData] = useState(null);
+  //숫자 증가 애니메이션 변수(end, start, duration)
+  const countValue = CountUp(100, 0, 2000);
 
   function handleGoogleLogin() {
     const provider = new GoogleAuthProvider(); // provider를 구글로 설정
@@ -40,6 +44,12 @@ function App() {
       </div>
       <div>
         <Progressbar/>
+      </div>
+      <div>
+        <p>Count: {countValue}</p>
+        <p>Count: {CountUp(1200, 0, 1000)}</p>
+        <p>Count: {CountUp(30, 0, 1000)}</p>
+        <p>Count: {CountUp(10000, 0, 1000)}</p>
       </div>
     </div>
   );
