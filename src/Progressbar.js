@@ -24,7 +24,7 @@ function Progressbar() {
     const [inputValue, setInputValue] = useState(0);
     //화면에 표시될 퍼센티지값
     const [calculatedPercent, setCalculatedPercent] = useState(0);
-  
+
     const handleFormSubmit = (e) => {
       e.preventDefault();
       // 확인 버튼을 눌렀을 때만 퍼센트 계산
@@ -49,7 +49,7 @@ function Progressbar() {
             round={true}
             fontSize="15px"
             textPosition="1.5rem"
-            speed= {30}
+            animationOff={true}
           >
             <Text>HTML</Text>
         </Circle>
