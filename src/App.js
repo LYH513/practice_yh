@@ -60,7 +60,7 @@ function App() {
         <CopyToClipboard
           text={account}
           onCopy={() => alert("클립보드에 복사되었습니다.")}>
-            <text>{account}</text>
+            <text>게좌 복사하기</text>
         </CopyToClipboard>
       </div>
       <div>
