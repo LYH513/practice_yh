@@ -6,6 +6,8 @@
 + Progressbar.js - 원형 프로그레스바 기능
 + CountUp.js - 숫자 증가 애니메이션 
 + DeepLink.js - 모바일에서 토스로 이동가능하도록 하는 기능
++ BankList.js - 은행 목록 선택창
++ Accordion.js - 아코디언 만들었어용
 
 ## 구글 로그인
 + 파이어 베이스 연결 
