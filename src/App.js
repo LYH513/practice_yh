@@ -10,6 +10,7 @@ import CountUp from './CountUp';
 
 import DeepLink from './DeepLink';
 import {CopyToClipboard} from "react-copy-to-clipboard/src";
+import BankList from './BankList';
 
 function App() {
   //구글 로그인관련 변수
@@ -65,6 +66,9 @@ function App() {
       </div>
       <div>
         <DeepLink/>
+      </div>
+      <div>
+        <BankList/>
       </div>
     </div>
   );
