@@ -12,6 +12,8 @@ import DeepLink from './DeepLink';
 import {CopyToClipboard} from "react-copy-to-clipboard/src";
 import BankList from './BankList';
 
+import Accordion from './Accordion';
+
 function App() {
   //구글 로그인관련 변수
   const [userData, setUserData] = useState(null);
@@ -20,6 +22,8 @@ function App() {
 
   //클립보드 
   const account = process.env.REACT_APP_ACCOUNT;
+
+  const contents ="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat tenetur";
 
   function handleGoogleLogin() {
     const provider = new GoogleAuthProvider(); // provider를 구글로 설정
@@ -69,6 +73,9 @@ function App() {
       </div>
       <div>
         <BankList/>
+      </div>
+      <div>
+        <Accordion title="#1 아코디언" contents={contents} />
       </div>
     </div>
   );
