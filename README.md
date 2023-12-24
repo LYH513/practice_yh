@@ -20,6 +20,8 @@
 + npm install react-icons 
 + npm install --save react-datetime
 + import 'moment/locale/ko'; // 한국어 로케일 추가-캘린더 한국어 뜨도록 
++ 1. (https://hisoit.tistory.com/72)
++ 2. (https://doooodle932.tistory.com/150)
 
 ## 원형 프로그레스바
 + npm install @tomickigrzegorz/react-circular-progress-bar
