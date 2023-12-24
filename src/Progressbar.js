@@ -33,23 +33,25 @@ function Progressbar() {
         //소수점 첫째짜리까지만 남음
         const percent = Math.round((parsedValue / giveme) * 1000) / 10
         setCalculatedPercent(calculatedPercent+ percent);
+        console.log(inputValue)
       }
     };
-
+    
     // 버튼 비활성화 여부 계산
      const isButtonDisabled = calculatedPercent >= 100;
 
   return (
     <div>
         <Circle
-            colorCircle={isButtonDisabled? "orange":"#ededed"}
+            colorCircle={isButtonDisabled?"orange": "#ededed"}
             colorSlice="orange"
             percent={calculatedPercent}
             fontColor="orange"
             round={true}
             fontSize="15px"
             textPosition="1.5rem"
-            animationOff={false}
+            //애니메이션 기능을 넣으면 오류 발생
+            animationOff={true}
           >
             <Text>HTML</Text>
         </Circle>
