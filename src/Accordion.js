@@ -36,6 +36,7 @@ const ContentsWrapper = styled.div`
 
 // 아코디언 내용을 스타일링한 컴포넌트
 const Contents = styled.div`
+
   padding: 5px;
 `;
 
@@ -78,7 +79,16 @@ function Accordion(props){
           {/* 아코디언 내용을 감싸는 부모 컨테이너 */}
           <ContentsWrapper ref={parentRef}>
             {/* 아코디언 내용 */}
-            <Contents ref={childRef}>{props.contents}</Contents>
+            <Contents ref={childRef}>
+            
+              <input type="text" placeholder="Type something..." />
+              <button onClick={() => alert("Button Clicked")}>Click me</button>
+              {props.contents}
+              {props.contents}
+              {props.contents}
+              {props.contents}
+              
+            </Contents>
           </ContentsWrapper>
         </Container>
     );

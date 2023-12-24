@@ -77,6 +77,9 @@ function App() {
       <div>
         <Accordion title="#1 아코디언" contents={contents} />
       </div>
+      <div>
+        <LineProgress/>
+      </div>
     </div>
   );
 }
