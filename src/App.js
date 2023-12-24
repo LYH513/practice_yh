@@ -14,6 +14,7 @@ import BankList from './BankList';
 
 import Accordion from './Accordion';
 import LineProgress from './LineProgress';
+import Cprogressbar from './Cprogressbar';
 
 function App() {
   //구글 로그인관련 변수
@@ -80,6 +81,10 @@ function App() {
       </div>
       <div>
         <LineProgress need={10000} give={1235}/>
+      </div>
+      <div style={{width: "200px"}}>
+        <Cprogressbar need={10000} give={12000
+        }/>
       </div>
     </div>
   );
