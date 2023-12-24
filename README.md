@@ -9,6 +9,7 @@
 + BankList.js - 은행 목록 선택창
 + Accordion.js - 아코디언 만들었어용
 + LineProgress.js - 가로 프로그레스 기능(원형아님)
++ Cprogressbar.js - 원형 프로그레스바 -> Progressbar.js 애니메이션 오류 수정 파일
 
 ## 구글 로그인
 + 파이어 베이스 연결 
@@ -47,7 +48,7 @@
 + 참고링크: https://github.com/react-component/progress
 + npm install --save rc-progress
 
-## 원형 프로그레스(Cprogressbar.js)
+## 원형 프로그레스2(Cprogressbar.js)
 + 기존 원형 프로그레스바는 애니메이션 상황에서 100%가 넘으면 오류 나길래 새로 만듬
 + 참고링크: https://github.com/react-component/progress
 + npm install --save rc-progress
