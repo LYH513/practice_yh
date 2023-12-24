@@ -46,3 +46,8 @@
 ## 가로 프로그레스
 + 참고링크: https://github.com/react-component/progress
 + npm install --save rc-progress
+
+## 원형 프로그레스(Cprogressbar.js)
++ 기존 원형 프로그레스바는 애니메이션 상황에서 100%가 넘으면 오류 나길래 새로 만듬
++ 참고링크: https://github.com/react-component/progress
++ npm install --save rc-progress
