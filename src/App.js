@@ -13,6 +13,7 @@ import {CopyToClipboard} from "react-copy-to-clipboard/src";
 import BankList from './BankList';
 
 import Accordion from './Accordion';
+import LineProgress from './LineProgress';
 
 function App() {
   //구글 로그인관련 변수
@@ -78,7 +79,7 @@ function App() {
         <Accordion title="#1 아코디언" contents={contents} />
       </div>
       <div>
-        <LineProgress/>
+        <LineProgress need={10000} give={1235}/>
       </div>
     </div>
   );

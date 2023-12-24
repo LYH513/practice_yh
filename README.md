@@ -8,6 +8,7 @@
 + DeepLink.js - 모바일에서 토스로 이동가능하도록 하는 기능
 + BankList.js - 은행 목록 선택창
 + Accordion.js - 아코디언 만들었어용
++ LineProgress.js - 가로 프로그레스 기능(원형아님)
 
 ## 구글 로그인
 + 파이어 베이스 연결 
@@ -40,3 +41,6 @@
 ## 아코디언
 + 참고링크: https://code-masterjung.tistory.com/81 
 
+## 가로 프로그레스
++ 참고링크: https://github.com/react-component/progress
++ npm install --save rc-progress

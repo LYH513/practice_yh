@@ -49,7 +49,7 @@ function Progressbar() {
             round={true}
             fontSize="15px"
             textPosition="1.5rem"
-            animationOff={true}
+            animationOff={false}
           >
             <Text>HTML</Text>
         </Circle>
