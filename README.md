@@ -63,4 +63,8 @@
 
 ## 모달 기능
 + 참고 링크: https://1two13.tistory.com/entry/react-react-modal-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EB%AA%A8%EB%8B%AC%EC%B0%BD-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0
++ app에서 이름 props 받아오고 있음
 + npm i react-modal
+
+## 링크만들고 복사
++ npm install react-router-dom

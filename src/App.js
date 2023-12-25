@@ -19,6 +19,8 @@ import Cprogressbar from './Cprogressbar';
 import CusCalendar from './CusCalendar';
 import WrightModal from './WrightModal';
 
+import Linkmaker from './Linkmaker';
+
 function App() {
   //구글 로그인관련 변수
   const [userData, setUserData] = useState(null);
