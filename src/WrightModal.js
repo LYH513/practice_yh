@@ -89,7 +89,7 @@ const SecondModalExplain =styled.div`
     //width: 418px;
     height: 60px;
     text-align: center;
-    margin-top: 125px;
+    margin-top: 94px;
 
     color: #909090;
     text-align: center;
