@@ -16,6 +16,8 @@ import Accordion from './Accordion';
 import LineProgress from './LineProgress';
 import Cprogressbar from './Cprogressbar';
 
+import CusCalendar from './CusCalendar';
+
 function App() {
   //구글 로그인관련 변수
   const [userData, setUserData] = useState(null);
@@ -27,6 +29,9 @@ function App() {
 
   const contents ="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat tenetur";
 
+  //새로 만든 캘린더 사용을 위한 변수
+  const [selectedDate, handleDateChange] = useState(new Date());
+  
   function handleGoogleLogin() {
     const provider = new GoogleAuthProvider(); // provider를 구글로 설정
     signInWithPopup(auth, provider) // popup을 이용한 signup
@@ -85,6 +90,10 @@ function App() {
       <div style={{width: "200px"}}>
         <Cprogressbar need={10000} give={12000
         }/>
+      </div>
+      <div>
+        <CusCalendar onChange={handleDateChange} value={selectedDate} 
+         />
       </div>
     </div>
   );

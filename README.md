@@ -10,6 +10,7 @@
 + Accordion.js - 아코디언 만들었어용
 + LineProgress.js - 가로 프로그레스 기능(원형아님)
 + Cprogressbar.js - 원형 프로그레스바 -> Progressbar.js 애니메이션 오류 수정 파일
++ CusCalendar.js - 기존꺼 css 하기 무서워서 캘린더 라이브러리 가져옴(현재 날짜 이전 날짜를 선택 비활성화)
 
 ## 구글 로그인
 + 파이어 베이스 연결 
@@ -52,3 +53,9 @@
 + 기존 원형 프로그레스바는 애니메이션 상황에서 100%가 넘으면 오류 나길래 새로 만듬
 + 참고링크: https://github.com/react-component/progress
 + npm install --save rc-progress
+
+## 캘린더 업그레이드(CusCalendar.js)
++ https://hisoit.tistory.com/72
++ npm install react-calendar
++ npm install moment
++ vecter.svg(캘린더 버튼 이미지) 경로를 어떻게 설정해야할지 잘 모르겠음... 일단 src 랑 같이 두면 작동함
