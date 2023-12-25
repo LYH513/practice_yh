@@ -17,6 +17,7 @@ import LineProgress from './LineProgress';
 import Cprogressbar from './Cprogressbar';
 
 import CusCalendar from './CusCalendar';
+import WrightModal from './WrightModal';
 
 function App() {
   //구글 로그인관련 변수
@@ -94,6 +95,9 @@ function App() {
       <div>
         <CusCalendar onChange={handleDateChange} value={selectedDate} 
          />
+      </div>
+      <div>
+        <WrightModal userName="유현"/>
       </div>
     </div>
   );

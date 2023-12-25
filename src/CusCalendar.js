@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import Calendar from "react-calendar";
-import "react-calendar/dist/Calendar.css";
+//import "react-calendar/dist/Calendar.css";
+//커스텀을 위해 css 파일을 하나 팠슈
+import "./css/CusCalendar.css"
 import selectArrow from "./Vector.svg";
 import moment from "moment";
-//import "node_modules/react-calendar/dist/Calendar.css ";
+
 
 const CalendarContainer = styled.div`
   position: relative;
@@ -39,7 +41,7 @@ const CalendarWrapper = styled.div`
   display: ${(props) => (props.isOpen ? "block" : "none")};
 `;
 
-const CusCalendar = ({ onChange, value }) => {
+function CusCalendar({ onChange, value }) {
   const [nowDate, setNowDate] = useState("날짜");
   const [isOpen, setIsOpen] = useState(false);
 
